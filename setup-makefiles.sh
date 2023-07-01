@@ -21,7 +21,7 @@ HELPER="${ANDROID_ROOT}/tools/extract-utils/extract_utils.sh"
 if [ ! -f "${HELPER}" ]; then
     echo "Unable to find helper script at ${HELPER}"
     exit 1
-if
+fi
 source "${HELPER}"
 
 # Initialize the helper
